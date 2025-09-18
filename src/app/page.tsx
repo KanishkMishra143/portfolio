@@ -134,7 +134,7 @@ export default function Home() {
               <li className="mr-5 shrink-0"><a href="https://github.com/KanishkMishra143" target="_blank" rel="noreferrer noopener" className="block hover:text-slate-200"><Github className="h-6 w-6" /></a></li>
               <li className="mr-5 shrink-0"><a href="https://www.linkedin.com/in/kanishk-kumar-83603b194/" target="_blank" rel="noreferrer noopener" className="block hover:text-slate-200"><Linkedin className="h-6 w-6" /></a></li>
               <li className="mr-5 shrink-0"><a href="mailto:kanishk.kumar412@gmail.com" className="block hover:text-slate-200"><Mail className="h-6 w-6" /></a></li>
-              <li className="mr-5 shrink-0"><a href="https://drive.google.com/uc?export=download&id=1e3BeJaku3GVcVwqTMzeEfi7uQrbbEm9i" target="_blank" rel="noreferrer noopener" className="mt-8 inline-flex items-center gap-2 rounded-md bg-teal-400/10 px-4 py-2 text-sm font-medium text-teal-300 hover:bg-teal-400/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-300/50" download="Kanishk_Mishra_CV.pdf"><Download className="h-4 w-4" /><span>Download CV</span></a></li>
+              <li className="mr-5 shrink-0"><a href="https://drive.google.com/uc?export=download&id=1e3BeJaku3GVcVwqTMzeEfi7uQrbbEm9i" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-2 rounded-md border border-slate-200 px-4 py-2 text-sm font-medium text-slate-200 hover:border-teal-300 hover:text-teal-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-300/50" download="Kanishk_Mishra_CV.pdf"><Download className="h-4 w-4" /><span>Download CV</span></a></li>
             </ul>
           </header>
 
