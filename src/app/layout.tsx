@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kanishk's Portfolio",
-  description: "A portfolio of my work.",
+  title: "Kanishk Kumar Mishra | DevOps Engineer",
+  description: "The portfolio of Kanishk Kumar Mishra, a DevOps Engineer specializing in Linux, automation, and web infrastructure.",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
