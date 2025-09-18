@@ -161,9 +161,9 @@ export default function Home() {
               <div className="mt-6">
                 <h3 className="text-lg font-semibold text-slate-300">Interests & Hobbies</h3>
                 <ul className="list-disc list-inside mt-2 text-slate-400">
-                  <li>Gaming</li>
-                  <li>Manga & Manhwa</li>
+                  <li>Exploring niche related to FOSS and Linux</li>
                   <li>FOSS Contribution</li>
+                  <li>Manga & Manhwa</li>
                 </ul>
               </div>
             </section>
