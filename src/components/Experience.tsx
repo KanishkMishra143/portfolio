@@ -9,6 +9,10 @@ const experiences = [
     duration: 'March 2025 – Present (5 months)',
   },
   {
+    role: 'B.Tech',
+    company: ''
+  },
+  {
     role: 'Senior Team Leader (Intern)',
     company: 'UpToSkills',
     duration: 'Jul–Oct 2025',

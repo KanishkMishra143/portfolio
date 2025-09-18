@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { Github, Linkedin, Mail, Code, Database, GitMerge, Server, Cog, Users, Download } from 'lucide-react';
+import { Github, Linkedin, Mail, Code, Database, GitMerge, Server, Cog, Users, Download, MapPin } from 'lucide-react';
 
 const basePath = process.env.basePath || '';
 
@@ -92,6 +92,13 @@ export default function Home() {
         logoUrl: "/uptoskills.svg",
     },
     {
+        date: "Sept 2023 – Sept 2027",
+        title: "B.Tech (ECE)",
+        subtitle: "ADGIPS",
+        description: "Achieved an overall 8.5 CGPA",
+        logoUrl: "/adgips.svg",
+    },
+    {
         date: "2022",
         title: "12th Grade",
         subtitle: "CBSE",
@@ -118,6 +125,13 @@ export default function Home() {
               </div>
               <h1 className="text-3xl font-bold tracking-tight text-slate-200 sm:text-4xl">Kanishk Kumar Mishra</h1>
               <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">DevOps Engineer</h2>
+              <div className="mt-4">
+                <p className="text-sm text-slate-400">21 Years old</p>
+                <div className="mt-2 flex items-center gap-1 text-sm text-slate-400">
+                  <MapPin className="h-4 w-4" />
+                  <span>New Delhi, India</span>
+                </div>
+              </div>
               <p className="mt-4 max-w-xs leading-normal text-slate-400">
                 I build and maintain the infrastructure that powers modern web applications.
               </p>
@@ -160,20 +174,20 @@ export default function Home() {
                     <h3 className="text-lg font-semibold text-slate-300 mb-2">Languages</h3>
                     <div className="flex flex-wrap gap-2">
                         <SkillPill name="Python" icon={Code} />
-                        <SkillPill name="JavaScript" icon={Code} />
-                        <SkillPill name="TypeScript" icon={Code} />
+                        <SkillPill name="HTML" icon={Code} />
+                        <SkillPill name="CSS" icon={Code} />
                         <SkillPill name="C++" icon={Code} />
-                        <SkillPill name="Rust" icon={Code} />
+                        <SkillPill name="Bash" icon={Code} />
                     </div>
                 </div>
                 <div className="mt-4">
                     <h3 className="text-lg font-semibold text-slate-300 mb-2">Frameworks & Libraries</h3>
                     <div className="flex flex-wrap gap-2">
-                        <SkillPill name="React.js" icon={Cog} />
-                        <SkillPill name="Next.js" icon={Cog} />
-                        <SkillPill name="Express.js" icon={Server} />
-                        <SkillPill name="Flask" icon={Server} />
                         <SkillPill name="Django" icon={Server} />
+                        <SkillPill name="Flask" icon={Cog} />
+                        <SkillPill name="Pandas" icon={Cog} />
+                        <SkillPill name="Matplotlib" icon={Cog} />
+                        <SkillPill name="PyGame" icon={Cog} />
                     </div>
                 </div>
                 <div className="mt-4">
@@ -182,7 +196,7 @@ export default function Home() {
                         <SkillPill name="Node.js" icon={Server} />
                         <SkillPill name="REST APIs" icon={Server} />
                         <SkillPill name="PostgreSQL" icon={Database} />
-                        <SkillPill name="MongoDB" icon={Database} />
+                        <SkillPill name="SQLite" icon={Database} />
                     </div>
                 </div>
                  <div className="mt-4">
