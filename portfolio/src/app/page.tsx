@@ -1,6 +1,7 @@
 'use client';
-import { useEffect, useState } from 'react';
-import { Github, Linkedin, Mail, Code, Database, GitMerge, Server, Wind, Cog, Users } from 'lucide-react';
+import { useEffect, useState } => 'react';
+import Image from 'next/image';
+import { Github, Linkedin, Mail, Code, Database, GitMerge, Server, Cog, Users } from 'lucide-react';
 
 const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <a href={href} className="group flex items-center py-3">
@@ -39,7 +40,7 @@ const TimelineItem = ({ date, title, subtitle, description, logoUrl, isLast }: {
     <div className="relative flex items-start">
         <div className="flex flex-col items-center mr-4">
             <div className="flex items-center justify-center w-12 h-12 rounded-full bg-slate-700">
-                <img src={logoUrl} alt={`${subtitle} logo`} className="w-8 h-8 object-contain" />
+                <Image src={logoUrl} alt={`${subtitle} logo`} className="w-8 h-8 object-contain" width={32} height={32} />
             </div>
             {!isLast && <div className="w-px h-24 bg-slate-600 mt-2"></div>}
         </div>
@@ -111,7 +112,7 @@ export default function Home() {
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <div>
               <div className="w-24 h-24 rounded-full bg-slate-700 mb-4">
-                <img src="/profile.png" alt="Profile Picture" className="rounded-full"/>
+                <Image src="/profile.png" alt="Profile Picture" className="rounded-full" width={96} height={96} />
               </div>
               <h1 className="text-3xl font-bold tracking-tight text-slate-200 sm:text-4xl">Kanishk Kumar Mishra</h1>
               <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">DevOps Engineer</h2>
@@ -138,7 +139,7 @@ export default function Home() {
             <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
               <h2 className="text-xl font-bold tracking-tight text-slate-200 sm:text-2xl mb-4">About Me</h2>
               <p className="leading-relaxed text-slate-400">
-                I'm a 22-year-old DevOps Engineer with a passion for Linux, scripting, and automation. My experience in startup environments has taught me to be adaptable and resourceful, with a strong focus on creating efficient and scalable systems. I thrive on solving complex problems and enjoy delving into system-level customization to optimize for performance and productivity.
+                I&apos;m a 22-year-old DevOps Engineer with a passion for Linux, scripting, and automation. My experience in startup environments has taught me to be adaptable and resourceful, with a strong focus on creating efficient and scalable systems. I thrive on solving complex problems and enjoy delving into system-level customization to optimize for performance and productivity.
               </p>
               <div className="mt-6">
                 <h3 className="text-lg font-semibold text-slate-300">Interests & Hobbies</h3>
