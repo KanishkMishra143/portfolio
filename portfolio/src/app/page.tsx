@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } => 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { Github, Linkedin, Mail, Code, Database, GitMerge, Server, Cog, Users } from 'lucide-react';
 
