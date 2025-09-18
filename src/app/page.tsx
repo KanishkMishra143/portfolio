@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { Github, Linkedin, Mail, Code, Database, GitMerge, Server, Cog, Users, Download, MapPin } from 'lucide-react';
+import { Github, Linkedin, Mail, Code, Database, GitMerge, Server, Cog, Users, Download, MapPin, Gamepad2, ChartBar, Table2, AppWindow } from 'lucide-react';
 
 const basePath = process.env.basePath || '';
 
@@ -184,19 +184,19 @@ export default function Home() {
                     <h3 className="text-lg font-semibold text-slate-300 mb-2">Frameworks & Libraries</h3>
                     <div className="flex flex-wrap gap-2">
                         <SkillPill name="Django" icon={Server} />
-                        <SkillPill name="Flask" icon={Cog} />
-                        <SkillPill name="Pandas" icon={Cog} />
-                        <SkillPill name="Matplotlib" icon={Cog} />
-                        <SkillPill name="PyGame" icon={Cog} />
+                        <SkillPill name="Flask" icon={AppWindow} />
+                        <SkillPill name="Pandas" icon={Table2} />
+                        <SkillPill name="Matplotlib" icon={ChartBar} />
+                        <SkillPill name="PyGame" icon={Gamepad2} />
                     </div>
                 </div>
                 <div className="mt-4">
                     <h3 className="text-lg font-semibold text-slate-300 mb-2">Backend & Databases</h3>
                     <div className="flex flex-wrap gap-2">
-                        <SkillPill name="Node.js" icon={Server} />
-                        <SkillPill name="REST APIs" icon={Server} />
                         <SkillPill name="PostgreSQL" icon={Database} />
                         <SkillPill name="SQLite" icon={Database} />
+                        <SkillPill name="REST APIs" icon={AppWindow} />
+                        <SkillPill name="Node.Js" icon={AppWindow} />
                     </div>
                 </div>
                  <div className="mt-4">
