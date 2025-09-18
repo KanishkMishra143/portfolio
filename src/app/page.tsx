@@ -170,7 +170,7 @@ export default function Home() {
 
             <section id="skills" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
                 <h2 className="text-xl font-bold tracking-tight text-slate-200 sm:text-2xl mb-4">Skills</h2>
-                <div className="mt-4">
+                <div className="mt-3">
                     <h3 className="text-lg font-semibold text-slate-300 mb-2">Languages</h3>
                     <div className="flex flex-wrap gap-2">
                         <SkillPill name="Python" icon={Code} />
@@ -180,7 +180,7 @@ export default function Home() {
                         <SkillPill name="Bash" icon={Code} />
                     </div>
                 </div>
-                <div className="mt-4">
+                <div className="mt-3">
                     <h3 className="text-lg font-semibold text-slate-300 mb-2">Frameworks & Libraries</h3>
                     <div className="flex flex-wrap gap-2">
                         <SkillPill name="Django" icon={Server} />
@@ -190,7 +190,7 @@ export default function Home() {
                         <SkillPill name="PyGame" icon={Gamepad2} />
                     </div>
                 </div>
-                <div className="mt-4">
+                <div className="mt-3">
                     <h3 className="text-lg font-semibold text-slate-300 mb-2">Backend & Databases</h3>
                     <div className="flex flex-wrap gap-2">
                         <SkillPill name="PostgreSQL" icon={Database} />
@@ -199,7 +199,7 @@ export default function Home() {
                         <SkillPill name="Node.Js" icon={AppWindow} />
                     </div>
                 </div>
-                 <div className="mt-4">
+                 <div className="mt-3">
                     <h3 className="text-lg font-semibold text-slate-300 mb-2">Practices & Tools</h3>
                     <div className="flex flex-wrap gap-2">
                         <SkillPill name="Git" icon={GitMerge} />
