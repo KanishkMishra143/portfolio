@@ -3,8 +3,6 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { Github, Linkedin, Mail, Code, Database, GitMerge, Server, Cog, Users, Download, MapPin, Gamepad2, ChartBar, Table2, AppWindow, ClipboardCheck, Send } from 'lucide-react';
 
-const basePath = process.env.basePath || '';
-
 const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <a href={href} className="group flex items-center py-3">
     <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
@@ -42,7 +40,7 @@ const TimelineItem = ({ date, title, subtitle, description, logoUrl, isLast }: {
     <div className="relative flex items-start">
         <div className="flex flex-col items-center mr-4">
             <div className="flex items-center justify-center w-12 h-12 rounded-full bg-slate-700">
-                <Image src={`${basePath}${logoUrl}`} alt={`${subtitle} logo`} className="w-8 h-8 object-contain" width={32} height={32} />
+                <Image src={logoUrl} alt={`${subtitle} logo`} className="w-8 h-8 object-contain" width={32} height={32} />
             </div>
             {!isLast && <div className="w-px h-24 bg-slate-600 mt-2"></div>}
         </div>
@@ -121,7 +119,7 @@ export default function Home() {
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:py-16">
             <div>
               <div className="w-48 h-48 rounded-full bg-slate-700 mb-4">
-                <Image src={`${basePath}/profile.png`} alt="Profile Picture" className="rounded-full" width={192} height={192} />
+                <Image src="/profile.png" alt="Profile Picture" className="rounded-full" width={192} height={192} />
               </div>
               <h1 className="text-3xl font-bold tracking-tight text-slate-200 sm:text-4xl">Kanishk Kumar Mishra</h1>
               <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">DevOps Engineer</h2>
@@ -153,7 +151,7 @@ export default function Home() {
           </header>
 
           <main id="content" className="pt-24 lg:w-1/2 lg:py-16">
-            <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-4 lg:scroll-mt-24">
+            <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-4g lg:scroll-mt-24">
               <h2 className="text-xl font-bold tracking-tight text-slate-200 sm:text-2xl mb-4">About Me</h2>
               <p className="leading-relaxed text-slate-400">
                 I&apos;m a 21-year-old DevOps Engineer with a passion for Linux, scripting, and automation. My experience in startup environments has taught me to be adaptable and resourceful, with a strong focus on creating efficient and scalable systems. I thrive on solving complex problems and enjoy delving into system-level customization to optimize for performance and productivity.
