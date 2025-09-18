@@ -15,9 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Kanishk Kumar Mishra | DevOps Engineer",
   description: "The portfolio of Kanishk Kumar Mishra, a DevOps Engineer specializing in Linux, automation, and web infrastructure.",
-  icons: {
-    icon: '/favicon.svg',
-  },
 };
 
 export default function RootLayout({
@@ -27,6 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/portfolio/favicon.svg" type="image/svg+xml" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

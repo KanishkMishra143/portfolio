@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { Github, Linkedin, Mail, Code, Database, GitMerge, Server, Cog, Users, Download, MapPin, Gamepad2, ChartBar, Table2, AppWindow } from 'lucide-react';
+import { Github, Linkedin, Mail, Code, Database, GitMerge, Server, Cog, Users, Download, MapPin, Gamepad2, ChartBar, Table2, AppWindow, ClipboardCheck, Send } from 'lucide-react';
 
 const basePath = process.env.basePath || '';
 
@@ -205,6 +205,8 @@ export default function Home() {
                         <SkillPill name="Git" icon={GitMerge} />
                         <SkillPill name="Agile" icon={Users} />
                         <SkillPill name="Microservices" icon={Server} />
+                        <SkillPill name="Jira" icon={ClipboardCheck} />
+                        <SkillPill name="Postman" icon={Send} />
                     </div>
                 </div>
             </section>
