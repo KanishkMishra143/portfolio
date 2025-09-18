@@ -2,7 +2,7 @@
 
 Welcome to the source code for my personal portfolio. This project showcases my skills, experience, and projects as a DevOps Engineer with a deep passion for Linux, automation, and the world of Free and Open-Source Software (FOSS).
 
-**[View the live portfolio here](https://kanishkmishra143.github.io/portfolio/)**
+**[View the live portfolio here!](https://kanishkmishra143.github.io/portfolio/)**
 
 ## About This Project
 
