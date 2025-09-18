@@ -225,11 +225,13 @@ export default function Home() {
                   name="Custom Linux Setup" 
                   description="A personalized productivity environment using Hyprland, Eww, and various automation scripts to streamline development workflows."
                   tags={['Linux', 'Hyprland', 'Eww', 'Shell Scripting']}
+                  url="https://github.com/KanishkMishra143/wm-utility-scripts"
                 />
                 <ProjectCard 
                   name="Sink Switch CLI Tool"
                   description="A command-line utility for quickly switching audio output devices in Linux, published on Fedora COPR and Arch AUR."
                   tags={['Python', 'CLI', 'Fedora COPR', 'Arch AUR']}
+                  url="https://github.com/KanishkMishra143/sink-switch"
                 />
                 <ProjectCard 
                   name="API Testing & Bug Reporting"
