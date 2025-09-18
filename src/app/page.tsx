@@ -1,7 +1,9 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { Github, Linkedin, Mail, Code, Database, GitMerge, Server, Cog, Users } from 'lucide-react';
+import { Github, Linkedin, Mail, Code, Database, GitMerge, Server, Cog, Users, Download } from 'lucide-react';
+
+const basePath = process.env.basePath || '';
 
 const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <a href={href} className="group flex items-center py-3">
@@ -40,7 +42,7 @@ const TimelineItem = ({ date, title, subtitle, description, logoUrl, isLast }: {
     <div className="relative flex items-start">
         <div className="flex flex-col items-center mr-4">
             <div className="flex items-center justify-center w-12 h-12 rounded-full bg-slate-700">
-                <Image src={logoUrl} alt={`${subtitle} logo`} className="w-8 h-8 object-contain" width={32} height={32} />
+                <Image src={`${basePath}${logoUrl}`} alt={`${subtitle} logo`} className="w-8 h-8 object-contain" width={32} height={32} />
             </div>
             {!isLast && <div className="w-px h-24 bg-slate-600 mt-2"></div>}
         </div>
@@ -112,7 +114,7 @@ export default function Home() {
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <div>
               <div className="w-24 h-24 rounded-full bg-slate-700 mb-4">
-                <Image src="/profile.png" alt="Profile Picture" className="rounded-full" width={96} height={96} />
+                <Image src={`${basePath}/profile.png`} alt="Profile Picture" className="rounded-full" width={96} height={96} />
               </div>
               <h1 className="text-3xl font-bold tracking-tight text-slate-200 sm:text-4xl">Kanishk Kumar Mishra</h1>
               <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">DevOps Engineer</h2>
@@ -129,9 +131,10 @@ export default function Home() {
               </nav>
             </div>
             <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
-              <li className="mr-5 shrink-0"><a href="https://github.com/your-github" target="_blank" rel="noreferrer noopener" className="block hover:text-slate-200"><Github className="h-6 w-6" /></a></li>
-              <li className="mr-5 shrink-0"><a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noreferrer noopener" className="block hover:text-slate-200"><Linkedin className="h-6 w-6" /></a></li>
-              <li className="mr-5 shrink-0"><a href="mailto:your-email@example.com" className="block hover:text-slate-200"><Mail className="h-6 w-6" /></a></li>
+              <li className="mr-5 shrink-0"><a href="https://github.com/KanishkMishra143" target="_blank" rel="noreferrer noopener" className="block hover:text-slate-200"><Github className="h-6 w-6" /></a></li>
+              <li className="mr-5 shrink-0"><a href="https://www.linkedin.com/in/kanishk-kumar-83603b194/" target="_blank" rel="noreferrer noopener" className="block hover:text-slate-200"><Linkedin className="h-6 w-6" /></a></li>
+              <li className="mr-5 shrink-0"><a href="mailto:kanishk.kumar412@gmail.com" className="block hover:text-slate-200"><Mail className="h-6 w-6" /></a></li>
+              <li className="mr-5 shrink-0"><a href="https://drive.google.com/uc?export=download&id=1e3BeJaku3GVcVwqTMzeEfi7uQrbbEm9i" target="_blank" rel="noreferrer noopener" className="mt-8 inline-flex items-center gap-2 rounded-md bg-teal-400/10 px-4 py-2 text-sm font-medium text-teal-300 hover:bg-teal-400/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-300/50" download="Kanishk_Mishra_CV.pdf"><Download className="h-4 w-4" /><span>Download CV</span></a></li>
             </ul>
           </header>
 
