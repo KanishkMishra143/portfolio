@@ -120,8 +120,8 @@ export default function Home() {
         <div className="lg:flex lg:justify-between lg:gap-4">
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <div>
-              <div className="w-24 h-24 rounded-full bg-slate-700 mb-4">
-                <Image src={`${basePath}/profile.png`} alt="Profile Picture" className="rounded-full" width={96} height={96} />
+              <div className="w-48 h-48 rounded-full bg-slate-700 mb-4">
+                <Image src={`${basePath}/profile.png`} alt="Profile Picture" className="rounded-full" width={192} height={192} />
               </div>
               <h1 className="text-3xl font-bold tracking-tight text-slate-200 sm:text-4xl">Kanishk Kumar Mishra</h1>
               <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">DevOps Engineer</h2>
