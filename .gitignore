@@ -1,0 +1,11 @@
+ # Dependencies
+ /node_modules
+ /.pnp
+ .pnp.js
+  
+#Build outputs
+/.next/
+/out/
+ 
+# Local environment variables
+.env.local
