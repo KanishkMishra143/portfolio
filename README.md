@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kanishk Kumar Mishra's Portfolio
 
-## Getting Started
+Welcome to the source code for my personal portfolio. This project showcases my skills, experience, and projects as a DevOps Engineer with a deep passion for Linux, automation, and the world of Free and Open-Source Software (FOSS).
 
-First, run the development server:
+**[View the live portfolio here](https://kanishkmishra143.github.io/portfolio/)**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## About This Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This portfolio is a fully responsive single-page application built from the ground up to be clean, fast, and modern. It is statically generated using Next.js and deployed on GitHub Pages via an automated GitHub Actions workflow.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Technologies Used
+*   **Framework:** [Next.js](https://nextjs.org/)
+*   **Language:** [TypeScript](https://www.typescriptlang.org/)
+*   **UI Library:** [React](https://react.dev/)
+*   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+*   **Deployment:** [GitHub Actions](https://github.com/features/actions) & [GitHub Pages](https://pages.github.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## About Me
 
-## Learn More
+I am a 21-year-old DevOps Engineer based in New Delhi, India. I thrive on solving complex problems, optimizing systems for performance, and creating efficient, scalable infrastructure for modern web applications. My experience has taught me to be adaptable and resourceful, and I have a strong background in the Python ecosystem, backend development, and various DevOps practices.
 
-To learn more about Next.js, take a look at the following resources:
+### Key Skill Areas
+*   **DevOps & Automation:** Git, Agile, Microservices, CI/CD with GitHub Actions
+*   **Backend Development:** Python (Django, Flask), Node.js, REST APIs
+*   **Databases:** PostgreSQL, SQLite
+*   **Languages:** Python, Bash, C++, HTML/CSS
+*   **Testing & QA:** Postman, Jira
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Featured Projects
+*   **Custom Linux Setup:** A personalized productivity environment using Hyprland and automation scripts.
+*   **Sink Switch CLI Tool:** A Python utility for managing audio devices in Linux, published on Fedora COPR and Arch AUR.
+*   **API Testing & Bug Reporting:** A project focused on documenting API testing methodologies with Postman and Jira.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+You can find my social links, email, and CV on the portfolio site itself. Thank you for visiting!
