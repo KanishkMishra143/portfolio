@@ -153,7 +153,7 @@ export default function Home() {
           </header>
 
           <main id="content" className="pt-24 lg:w-1/2 lg:py-16">
-            <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-16 lg:scroll-mt-24">
+            <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-8 lg:scroll-mt-24">
               <h2 className="text-xl font-bold tracking-tight text-slate-200 sm:text-2xl mb-4">About Me</h2>
               <p className="leading-relaxed text-slate-400">
                 I&apos;m a 22-year-old DevOps Engineer with a passion for Linux, scripting, and automation. My experience in startup environments has taught me to be adaptable and resourceful, with a strong focus on creating efficient and scalable systems. I thrive on solving complex problems and enjoy delving into system-level customization to optimize for performance and productivity.
